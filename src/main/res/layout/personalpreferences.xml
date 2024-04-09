@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/preferencesHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREFERENCES"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Work Environment -->
+    <TextView
+        android:id="@+id/workEnvironmentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What type of work environment do you thrive in?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/preferencesHeading"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/workEnvironmentEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter work environment preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/workEnvironmentLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Work Style -->
+    <TextView
+        android:id="@+id/workStyleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you prefer working independently or as part of a team?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/workEnvironmentEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/workStyleEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter work style preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/workStyleLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Adaptability -->
+    <TextView
+        android:id="@+id/adaptabilityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do you handle and adapt to change in the workplace?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/workStyleEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/adaptabilityEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter adaptability preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/adaptabilityLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Company Values -->
+    <TextView
+        android:id="@+id/companyValuesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What values are important to you in a company culture?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/adaptabilityEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/companyValuesEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter company values preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/companyValuesLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Feedback Style -->
+    <TextView
+        android:id="@+id/feedbackStyleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do you prefer to receive feedback and recognition?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/companyValuesEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/feedbackStyleEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter feedback style preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/feedbackStyleLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Work Schedule -->
+    <TextView
+        android:id="@+id/workScheduleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you comfortable with flexible work schedules or remote work?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/feedbackStyleEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/workScheduleEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter work schedule preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/workScheduleLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Communication Style -->
+    <TextView
+        android:id="@+id/communicationStyleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Describe your communication style in a team setting."
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/workScheduleEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/communicationStyleEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter communication style preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/communicationStyleLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Conflict Resolution -->
+    <TextView
+        android:id="@+id/conflictResolutionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do you approach conflicts or disagreements with colleagues?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/communicationStyleEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/conflictResolutionEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter conflict resolution preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/conflictResolutionLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Leadership Style -->
+    <TextView
+        android:id="@+id/leadershipStyleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What type of leadership style do you respond well to?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/conflictResolutionEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/leadershipStyleEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter leadership style preferences"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/leadershipStyleLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Management Preference -->
+    <TextView
+        android:id="@+id/managementPreferenceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How do you prefer to be managed and supervised?"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/leadershipStyleEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/managementPreferenceEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter management preference"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/managementPreferenceLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Add more questions as needed -->
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitPreferencesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        app:layout_constraintTop_toBottomOf="@id/managementPreferenceEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

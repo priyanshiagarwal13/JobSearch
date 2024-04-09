@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/universityDetailsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- University Name -->
+    <EditText
+        android:id="@+id/editTextUniversityName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="University Name"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/universityDetailsHeading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Space -->
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUniversityName"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <!-- Major -->
+    <EditText
+        android:id="@+id/editTextMajor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Major"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/space1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Space -->
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMajor"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <!-- Minor -->
+    <EditText
+        android:id="@+id/editTextMinor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Minor (if any)"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/space2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Space -->
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMinor"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <!-- Year of Graduating -->
+    <EditText
+        android:id="@+id/editTextYearOfGraduating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Year of Graduating"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/space3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Space -->
+    <Space
+        android:id="@+id/space4"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextYearOfGraduating"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <!-- CGPA -->
+    <EditText
+        android:id="@+id/editTextCGPA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="CGPA (on the scale of 10)"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/space4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButtonUniversityDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:background="#BACDF5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCGPA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

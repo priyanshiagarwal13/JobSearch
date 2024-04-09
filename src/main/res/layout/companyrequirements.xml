@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextWorkingDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Working Days per Week"/>
+
+    <EditText
+        android:id="@+id/editTextWorkingHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextWorkingDays"
+        android:hint="Working Hours per Day"/>
+
+    <EditText
+        android:id="@+id/editTextSalaryRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextWorkingHours"
+        android:hint="Salary Range"/>
+
+    <EditText
+        android:id="@+id/editTextPerks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSalaryRange"
+        android:hint="Perks Provided"/>
+
+    <EditText
+        android:id="@+id/editTextHolidaysPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPerks"
+        android:hint="Holidays Policy"/>
+
+    <EditText
+        android:id="@+id/editTextLeavesPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextHolidaysPolicy"
+        android:hint="Leaves Policy"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLeavesPolicy"
+        android:layout_marginTop="36dp"
+        android:text="Submit" />
+
+
+</RelativeLayout>

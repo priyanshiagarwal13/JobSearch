@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emp" type="id" />
+    <item name="nextButtonUniversityDetails" type="id"/>
+    <item name="editTextCGPA" type="id"/>
+    <item name="playGameButton" type="id" />
+</resources>

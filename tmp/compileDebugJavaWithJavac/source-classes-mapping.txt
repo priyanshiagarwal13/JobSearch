@@ -1,0 +1,32 @@
+com/example/jobsearch/message.java
+ com.example.jobsearch.message
+com/example/jobsearch/DatabaseHelper.java
+ com.example.jobsearch.DatabaseHelper
+com/example/jobsearch/PersonalPreferences.java
+ com.example.jobsearch.PersonalPreferences
+ com.example.jobsearch.PersonalPreferences$1
+com/example/jobsearch/employerintro.java
+ com.example.jobsearch.employerintro
+com/example/jobsearch/BuildConfig.java
+ com.example.jobsearch.BuildConfig
+com/example/jobsearch/UniversityDetails.java
+ com.example.jobsearch.UniversityDetails
+ com.example.jobsearch.UniversityDetails$1
+com/example/jobsearch/ChooseCompanies.java
+ com.example.jobsearch.ChooseCompanies
+ com.example.jobsearch.ChooseCompanies$1
+com/example/jobsearch/CompanyDetails2.java
+ com.example.jobsearch.CompanyDetails2
+ com.example.jobsearch.CompanyDetails2$1
+com/example/jobsearch/MainActivity2.java
+ com.example.jobsearch.MainActivity2
+ com.example.jobsearch.MainActivity2$1
+ com.example.jobsearch.MainActivity2$2
+com/example/jobsearch/CompanyRequirements.java
+ com.example.jobsearch.CompanyRequirements
+com/example/jobsearch/MainActivity.java
+ com.example.jobsearch.MainActivity
+ com.example.jobsearch.MainActivity$1
+com/example/jobsearch/SignUpEmployee.java
+ com.example.jobsearch.SignUpEmployee
+ com.example.jobsearch.SignUpEmployee$1

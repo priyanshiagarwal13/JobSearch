@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Top Center Heading -->
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Job Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Mission -->
+    <EditText
+        android:id="@+id/editTextMission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mission"
+        android:layout_below="@id/textViewHeading" />
+
+    <!-- Vision -->
+    <EditText
+        android:id="@+id/editTextVision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vision"
+        android:layout_below="@id/editTextMission" />
+
+    <!-- Positions Available -->
+    <EditText
+        android:id="@+id/editTextPositionsAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextVision"
+        android:hint="Positions Available" />
+
+    <!-- Job Description -->
+    <EditText
+        android:id="@+id/editTextJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPositionsAvailable"
+        android:hint="Job Description" />
+
+    <!-- Job Requirements -->
+    <EditText
+        android:id="@+id/editTextJobRequirements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJobDescription"
+        android:hint="Job Requirements" />
+
+    <!-- Job Specifications -->
+    <EditText
+        android:id="@+id/editTextJobSpecifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJobRequirements"
+        android:hint="Job Specifications" />
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJobSpecifications"
+        android:layout_marginTop="21dp"
+        android:text="Next" />
+
+</RelativeLayout>

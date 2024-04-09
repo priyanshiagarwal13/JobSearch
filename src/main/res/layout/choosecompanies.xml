@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Heading "ABOUT" -->
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ABOUT"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <!-- Company Name EditText -->
+    <EditText
+        android:id="@+id/editTextCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAbout"
+        android:hint="Company Name"/>
+
+    <!-- CEO Name EditText -->
+    <EditText
+        android:id="@+id/editTextCEOName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCompanyName"
+        android:hint="CEO Name"/>
+
+    <!-- Head Office Destination EditText -->
+    <EditText
+        android:id="@+id/editTextHeadOffice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCEOName"
+        android:hint="Head Office Destination"/>
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextHeadOffice"
+        android:hint="Email"/>
+
+    <!-- Contact EditText -->
+    <EditText
+        android:id="@+id/editTextContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:hint="Contact"/>
+
+    <!-- Type of Company EditText -->
+    <EditText
+        android:id="@+id/editTextCompanyType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContact"
+        android:hint="Type of Company" />
+
+    <!-- Text for uploading documents -->
+    <TextView
+        android:id="@+id/textViewUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCompanyType"
+        android:layout_marginTop="16dp"
+        android:text="Upload documents for proof: "
+        android:textStyle="bold" />
+
+    <!-- Upload Button -->
+
+    <!-- Next Button -->
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCompanyType"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/textViewUpload"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUpload"
+        android:layout_marginTop="6dp"
+        android:text="Next" />
+
+</RelativeLayout>
